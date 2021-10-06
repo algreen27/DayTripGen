@@ -1,4 +1,4 @@
-userInput = prompt('Select a Destination');
+//userInput = prompt('Select a Destination');
 
 let places = ['HI','TX','CA','NY','FL'];
 let rstrnt = ['POKE','BBQ','STEAK','SUSHI','RAMEN'];
@@ -7,14 +7,15 @@ let transpo = ['CAR','LIMO','BUS','PLANE','HELO'];
 
 function dayTripLoc(dest){
 
-   let d=  Math.floor(Math.random() * 4) +1);
-
-   console.log(dest[d]);  
-        
-        
+   let d =  Math.floor(Math.random() * 4);
+   //capture number in d
+    
     
     
 }
+
+dayTripLoc(places);
+console.log(places[d]); 
 
 // function dayTripRes(food){
 //     for (let f = 0; f < food.length; f++) {
